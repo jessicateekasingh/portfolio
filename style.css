@@ -29,9 +29,7 @@ a{
 }
 
 a:hover {
-  color: #92b2ba;
-  background-color: #f0a8bb;
-  text-shadow: 1px 1px 1px white;
+  color: #DB7093
 }
 
 /* MAIN CONTENT STYLING */
@@ -79,12 +77,34 @@ footer{
   margin-left: 150px;
   color: #f0a8bb;
   font-family: 'DM Sans', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   padding-bottom: 30px;
 }
 
+.logo-size{
+  width: 70px;
+  margin-left: 170px;
+  margin-top: 30px;
+  padding-bottom: 0px;
+}
 
-.flower1{
+.logo-size-right{
+  width: 70px;
+  margin-left: 170px;
+  margin-top: 30px;
+  padding-bottom: 0px;
+}
+
+.logo-size-right > p{
+  display:flex;
+  justify-content: flex-end;
+  color: #f0a8bb;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  padding-bottom: 30px;
+}
+
+.Proj1{
   box-shadow: 1px 3px 1px 1px #E8E8E8;
   width: 30%;
 }
@@ -102,7 +122,7 @@ footer{
   text-transform: uppercase;
 }
 
-.flower1 > li{
+.Proj1 > li{
   display: inline-block;
   line-height: 2em;
   padding: 1em;
@@ -120,11 +140,11 @@ footer{
 
 .price-tag > p{
   display: flex;
-  width: 20px;
+  width: 30px;
   height: 20px;
   flex-direction: row-reverse;
   padding: 0px 20px 0px;
-  background-color: pink;
+  background-color: #DB7093;
   float: right;
   z-index: 1;
   font-family: 'DM Sans', 'sans-serif';
@@ -135,8 +155,9 @@ footer{
 
 .middle{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 20px;
+  margin-left: 50px;
   text-transform: uppercase;
   font-family: 'DM Sans', sans-serif;
 }
@@ -144,17 +165,4 @@ footer{
 .middle > ul{
   list-style: none;
   color: #777777;
-}
-
-.right{
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 20px;
-  text-transform: uppercase;
-  font-family: 'DM Sans', sans-serif;
-}
-
-.right > ul{
-  list-style: none;
-  color: #777777
 }
